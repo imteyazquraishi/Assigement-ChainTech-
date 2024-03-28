@@ -166,7 +166,7 @@ header{
     font-weight: 600;
     line-height: 105%;
     margin: 0 auto;
-    margin-bottom: 38px;
+    margin-bottom: 24px;
     color: var(--black03);
     width: 65%;
     text-align: center
@@ -198,34 +198,24 @@ header{
 .services-section .card.mid-green{
     background: var(--mid-green);
 }
-/* .services-section .card .card-body img{
-    position: absolute;
-} */
-.services-section .card.mid-green .card-body img{
-    position: absolute;
-    bottom: -8px;
+.services-section .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.services-section .card .card-body img{
+    width: 100%;
+    margin-top: auto;
 }
 .services-section .card.mid-skyblue{
     background: var(--mid-skyblue);
 }
-.services-section .card.card.mid-skyblue .card-body img{
-    position: absolute;
-    bottom: -13px;
-}
 .services-section .card.mid-red{
     background: var(--mid-red);
-}
-.services-section .card.mid-red .card-body img{
-    position: absolute;
-    bottom: -26px;
 }
 .services-section .card.mid-purple{
     background: var(--mid-purple);
 }
-.services-section .card.mid-purple .card-body img{
-    margin-bottom: -38px;
-}
-
 
 
 /* footer */
@@ -273,30 +263,6 @@ footer .footer-bottom p{
         margin-bottom: 18px;
         width: 70%;
     }
-    .services-section .card.mid-green .card-body img {
-        position: absolute;
-        bottom: -8px;
-        width: 100%;
-        right: 0;
-        left: 0;
-    }
-    .services-section .card.card.mid-skyblue .card-body img {
-        width: 100%;
-        position: absolute;
-        bottom: -13px;
-        right: 0;
-        left: 0;
-    }
-    .services-section .card.mid-red .card-body img {
-        position: absolute;
-        bottom: -26px;
-        right: 0;
-        left: 0;
-    }
-    .services-section .card.mid-purple .card-body img {
-        margin-bottom: -32px;
-        width: 100%;
-    }
 }
 
 
@@ -327,26 +293,6 @@ footer .footer-bottom p{
         font-size: 16px;
         margin-bottom: 12px;
     }
-    .services-section .card.mid-green .card-body img {
-        width: 100%;
-        bottom: -12px;
-    }
-    .services-section .card.card.mid-skyblue .card-body img {
-        position: unset;
-        margin-bottom: -15px;
-        width: 100%;
-    }
-    .services-section .card.card.mid-red .card-body img {
-        position: unset;
-        margin-bottom: -30px;
-        width: 100%;
-    }
-    .services-section .card.card.mid-purple .card-body img {
-        position: absolute;
-        width: 100%;
-        bottom: -8px;
-    }
-
 
 }
 
@@ -373,26 +319,6 @@ footer .footer-bottom p{
     .services-section .heading-text {
         font-size: 34px;
         margin-bottom: 5px;
-    }
-    .services-section .card.mid-green .card-body img {
-        position: unset;
-        margin-bottom: -11px;
-        /* width: 100%; */
-    }
-    .services-section .card.card.mid-skyblue .card-body img {
-        position: unset;
-        margin-bottom: -17px;
-        /* width: 100%; */
-    }
-    .services-section .card.card.mid-red .card-body img {
-        position: unset;
-        margin-bottom: -35px;
-        /* width: 100%; */
-    }
-    .services-section .card.card.mid-purple .card-body img {
-        position: unset;
-        margin-bottom: -49px;
-        /* width: 100%; */
     }
 }
 
